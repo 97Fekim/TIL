@@ -11,4 +11,4 @@ Today I Learned (2021. 12. 28 ~ )<br>
 ### Python
 - [Python](https://github.com/97Fekim/TIL/tree/master/Python)
 ### Abbreviation
-- [Abbreviation]()
+- [Abbreviation](https://github.com/97Fekim/TIL/blob/master/Abbreviation/001.%20Abbreviation.md)
