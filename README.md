@@ -6,7 +6,7 @@ Today I Learned (2021. 12. 28 ~ )<br>
 - 이론을 적용하여 실습한 내용은 ".md 파일과 동일한 이름_source" 의 파일에 정리한다.
 ## 분류
 - [숙제모음](https://github.com/97Fekim/TIL/tree/master/Green%20homework)
-- [Python](
+- [Python]()
 ## 12/28
 > 1. 교재 3권 배부
 > - Java의 정석⚡
