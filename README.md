@@ -18,7 +18,8 @@
 - [자주쓰는 이클립스 단축키](https://github.com/97Fekim/TIL/blob/master/Java/%EB%8B%A8%EC%B6%95%ED%82%A4.md)
 ### HTML
 - [HTML 시작하기](https://github.com/97Fekim/TIL/blob/master/HTML/Start%20HTML.md)
-- [HTML head (메타데이터)](https://github.com/97Fekim/TIL/blob/master/HTML/Head.md)
+- [head (메타데이터)](https://github.com/97Fekim/TIL/blob/master/HTML/Head.md)
+- [페이지 구성](https://github.com/97Fekim/TIL/blob/master/HTML/Text%20Fundamentals.md)
 ### 숙제
 - [숙제모음](https://github.com/97Fekim/TIL/tree/master/Green%20homework)
 .
