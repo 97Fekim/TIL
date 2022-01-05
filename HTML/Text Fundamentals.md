@@ -4,16 +4,21 @@
 ## 기본적인 것 : 제목과 단락.
 * 기사, 신문, 교과서, 잡지 등 무엇을 읽든 간에 텍스트는 제목과 단락으로 구성된다. 구조화된 텍스트는 그렇지 않은 텍스트보다 더 쉽고 잘 읽힌다.
 * HTML에서 각 단락은 아래의 코드처럼 <code>&lt;p&gt;</code> 요소 안에 둘러싸여 있어야 한다.
+
 ```
 <p>But i am a women</p>
 ```
+
 * 각 제목도 아래의 코드처럼 **heading** 요소 안에 둘러싸여 있어야 한다. 
+
 ```
 <h>I'm your father.</h>
 ```
+
 * **heading** 요소는 총 6개가 있다. <code>&lt;h1&gt;</code>,<code>&lt;h2&gt;</code>,<code>&lt;h3&gt;</code>,<code>&lt;h4&gt;</code>,<code>&lt;h5&gt;</code>,<code>&lt;h6&gt;</code>
 * 각 요소에서는 문서에서 다른 수준의 내용을 나타낸다. 메인 제목을 <code>&lt;h1&gt;</code>으로 나타내고, 소제목을 <code>&lt;h2&gt;</code>, 소제목의 소제목을 <code>&lt;h3&gt;</code> 로 나타내는 방식이다.
 ## 구조화된 계층 구현하기
+
 ```
 <h1>"h1 제목"</h1>
 <p>"h1 단락"</p>
@@ -22,6 +27,8 @@
 <h3>"h3 제목"</h3>
 <p>"h3 단락"</p>
 ```
+
+↓↓↓
 <h1>"h1 제목"</h1>
 <p>"h1 단락"</p>
 <h2>"h2 제목"</h2>
@@ -45,6 +52,7 @@
 * &lt;li&gt;는 list item을 의미한다.
 * &lt;ul&gt;은 unordered list를 의미한다. (순서가 없는)
 * &lt;ol&gt;은 ordered list를 의미한다. (순서가 있는)
+
 ```
 <ul>
 milk
@@ -53,6 +61,7 @@ bread
 hummus
 </ul>
 ```
+
 ↓↓↓
 <ul>
 milk
@@ -60,6 +69,7 @@ eggs
 bread
 hummus
 </ul>
+
 ```
 <ul>
     <li>milk</li>
@@ -68,6 +78,7 @@ hummus
     <li>hummus</li>
 </ul>
 ```
+
 ↓↓↓
 <ul>
     <li>milk</li>
@@ -77,6 +88,7 @@ hummus
 </ul>
 
 ### 2. 순서 있는 리스트 (&lt;ol&gt;)
+
 ```
 <ol>
 Drive to the end of the road
@@ -86,6 +98,7 @@ Turn left at the third roundabout
 The school is on your right, 300 meters up the road
 </ol>
 ```
+
 ↓↓↓
 <ol>
 Drive to the end of the road
@@ -94,6 +107,7 @@ Go straight across the first two roundabouts
 Turn left at the third roundabout
 The school is on your right, 300 meters up the road
 </ol>
+
 ```
 <ol>
   <li>Drive to the end of the road</li>
@@ -103,6 +117,7 @@ The school is on your right, 300 meters up the road
   <li>The school is on your right, 300 meters up the road</li>
 </ol>
 ```
+
 ↓↓↓
 <ol>
   <li>Drive to the end of the road</li>
@@ -113,6 +128,7 @@ The school is on your right, 300 meters up the road
 </ol>
 
 ### 리스트 내부의 리스트 (Nesting lists)
+
 ```
 <ol>
   <li>Remove the skin from the garlic, and chop coarsely.</li>
@@ -123,6 +139,7 @@ The school is on your right, 300 meters up the road
   <li>If you want a smooth hummus, process it for a longer time.</li>
 </ol>
 ```
+
 ↓↓↓
 <ol>
   <li>Remove the skin from the garlic, and chop coarsely.</li>
@@ -132,6 +149,7 @@ The school is on your right, 300 meters up the road
   <li>If you want a coarse "chunky" hummus, process it for a short time.</li>
   <li>If you want a smooth hummus, process it for a longer time.</li>
 </ol>
+
 ```
 <ol>
     <li>Remove the skin from the garlic, and chop coarsely.</li>
@@ -144,6 +162,7 @@ The school is on your right, 300 meters up the road
     </ul>
 </ol>
 ```
+
 ↓↓↓
 <ol>
     <li>Remove the skin from the garlic, and chop coarsely.</li>
@@ -159,17 +178,21 @@ The school is on your right, 300 meters up the road
 ## 중요와 강조
 ### 1. 중요(Emphasis)
 * 대표적으로 &lt;em&gt;(emphasis) 가 사용된다.
+
 ```
 <p>I am <em>glad</em> you weren't <em>late</em>.</p>
 ```
+
 ↓↓↓
 <p>I am <em>glad</em> you weren't <em>late</em>.</p>
 
 ### 2. 강조(Strong importance)
 * 대표적으로 &lt;strong&gt;가 사용된다.
+
 ```
 <p>This liquid is <strong>highly toxic</strong>.</p>
 ```
+
 ↓↓↓
 <p>This liquid is <strong>highly toxic</strong>.</p>
 
