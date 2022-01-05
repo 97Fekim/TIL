@@ -39,3 +39,4 @@ _My Github_</a> is my Github link
 <a href="https://www.mozilla.org/en-US/">
   <img src="mozilla-image.png" alt="mozilla logo that links to the mozilla homepage">
 </a>
+
