@@ -1,5 +1,5 @@
 # HTML head
-> HTML의 head를 사용하는 목적과 HTML 문서에 어떤 영향을 끼칠 수 있는지에 대해 학습합니다.
+> HTML의 head를 사용하는 목적과 HTML 문서에 어떤 영향을 끼칠 수 있는지에 대해 학습한다.
 
 ## HTML head 란?
 ```
