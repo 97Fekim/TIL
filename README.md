@@ -8,6 +8,7 @@
 ## 분류
 ### Data structure
 - [선형 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/1.%20Linked%20list.md)
+- [원형 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/2.%20Circular%20linked%20list.md)
 ### Java
 - [Java](https://github.com/97Fekim/TIL/tree/master/Java)
 ### Python
