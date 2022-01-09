@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Fekim page</title>
+
+	<style>
+		
+	</style>
+
+</head>
+<body>
+
+	<div id="mydivid">
+
+	</div>
+
+	<script type="text/javascript">
+		
+		let names = ["name1", "name2", "name3", "name4", "name5"];
+
+		document.getElementById("mydivid").innerHTML = 
+			names;
+
+		function testFunction()
+		{
+			// 로직을 만들어지는 부분입니다.
+			for(i=0; i<names.length; i=i+1)
+			{
+				alert(names[i]);
+			}
+		}
+
+
+
+	</script>
+
+	<button onclick="testFunction()">안녕버튼</button>
+
+</body>
+</html>

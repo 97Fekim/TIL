@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			//// 숨기기, 보이기 예제
+			// $("#숨기기").click(function()
+			// {
+			// 	$("div").hide()
+			// });
+			// $("#보이기").click(function()
+			// {
+			// });
+			// 	$("div").show()
+			$("#moveButton").click(function(){
+				$("div").animate({left:'100px'});
+			});
+		});
+	</script>
+
+	<style type="text/css">
+		div 
+		{
+			width : 100px;
+			height :100px;
+			background-color: blue;
+			position: absolute;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<button id="moveButton">움직이기!!</button>
+
+	<div>
+		어떤 내용물이 있습니다.
+	</div>
+	
+	<!-- <button id ="숨기기">숨기기</button>
+	<button id ="보이기">보이기</button> -->
+
+</body>
+</html>
