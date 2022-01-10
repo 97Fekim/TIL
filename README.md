@@ -4,7 +4,7 @@
 - 수업시간에 빠르게 타이핑한 후, 나중에 문서화하며 복습한다.
 - 이론에 관련된 내용은 .md 파일로 기록한다.
 - 이론을 적용하여 실습한 내용은 example source code 대주제 폴더 에 기록한다.
-- [namjunemy](https://github.com/namjunemy)님의 Github TIL에서 많은 영감을 얻었고, 참조하여 작성하였습니다.
+- [namjunemy](https://github.com/namjunemy)님의 Github "TIL" 저장소에서 많은 영감을 얻었고, 참조하여 작성하였습니다.
 ## 분류
 ### Data structure
 - [선형 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/1.%20Linked%20list.md)
