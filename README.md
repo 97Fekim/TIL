@@ -14,6 +14,7 @@
 - [큐](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/5.%20Queue.md)
 - [트리](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/6.%20Tree.md)
 - [그래프](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/7.%20Gragh.md)
+- [정렬](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/8.%20Sort.md)
 ### Java
 - [Java](https://github.com/97Fekim/TIL/tree/master/Java)
 ### Python
