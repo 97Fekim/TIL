@@ -12,6 +12,8 @@
 - [이중 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/3.%20Doubly%20linked%20list.md)
 - [스택](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/4.%20Stack.md)
 - [큐](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/5.%20Queue.md)
+- [트리](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/6.%20Tree.md)
+- [그래프](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/7.%20Gragh.md)
 ### Java
 - [Java](https://github.com/97Fekim/TIL/tree/master/Java)
 ### Python
