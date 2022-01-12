@@ -16,7 +16,7 @@
 - [그래프](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/7.%20Gragh.md)
 - [정렬](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/8.%20Sort.md)
 ### Java
-- [Java](https://github.com/97Fekim/TIL/tree/master/Java)
+- [Java](https://github.com/97Fekim/Java_basic)
 ### Python
 - [Python](https://github.com/97Fekim/TIL/tree/master/Python)
 - [자료형](https://github.com/97Fekim/TIL/blob/master/Python/004.%20Data%20type.md)
