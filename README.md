@@ -18,6 +18,7 @@
 ### Java
 - [Java](https://github.com/97Fekim/Java_basic)
 - [해쉬맵 사용하기](https://github.com/97Fekim/TIL/blob/master/Java/HashMap.md)
+- [StringBuffer 사용하기](https://github.com/97Fekim/TIL/blob/master/Java/StringBuffer.md)
 ### Python
 - [Python](https://github.com/97Fekim/TIL/tree/master/Python)
 - [자료형](https://github.com/97Fekim/TIL/blob/master/Python/004.%20Data%20type.md)
