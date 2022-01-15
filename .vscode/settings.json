@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe", 
+    "terminal.integrated.shellArgs.windows": ["/K","SET CMDER_ROOT=C:\\cmder&&C:\\cmder\\vendor\\init.bat"]
+
+}
