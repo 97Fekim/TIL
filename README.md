@@ -31,6 +31,7 @@
 ### Spring
 - [초기 환경설정](https://github.com/97Fekim/TIL/blob/master/Spring/1.%20Setting.md)
 - [Spring 기초개념](https://github.com/97Fekim/TIL/blob/master/Spring/3.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9B%B9%EA%B0%9C%EB%B0%9C%20%EA%B8%B0%EC%B4%88.md)
+- [테스트 코드](https://github.com/97Fekim/TIL/blob/master/Spring/4.%20TestCase.md)
 ### Git
 - [깃 기초](https://github.com/97Fekim/TIL/blob/master/Git/1.%20Git%20Basic.md)
 - [버전관리](https://github.com/97Fekim/TIL/blob/master/Git/2.%20Version%20management.md)
