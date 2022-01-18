@@ -22,7 +22,6 @@
 ### Python
 - [Python](https://github.com/97Fekim/TIL/tree/master/Python)
 - [자료형](https://github.com/97Fekim/TIL/blob/master/Python/004.%20Data%20type.md)
-- [자주쓰는 이클립스 단축키](https://github.com/97Fekim/TIL/blob/master/Java/%EB%8B%A8%EC%B6%95%ED%82%A4.md)
 ### HTML
 - [HTML 시작하기](https://github.com/97Fekim/TIL/blob/master/HTML/Start%20HTML.md)
 - [head (메타데이터)](https://github.com/97Fekim/TIL/blob/master/HTML/Head.md)
