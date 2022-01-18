@@ -6,8 +6,15 @@
 - 이론을 적용하여 실습한 내용은 example source code 대주제 폴더 에 기록한다.
 - [namjunemy](https://github.com/namjunemy)님의 Github "TIL" 저장소을 참조하여 작성.
 ## 분류
-### Data structure
+
+<details>
+<summary> Data Stucture </summary>
+<div markdown="1">
+<strong>Data structure</strong>
 - [선형 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/1.%20Linked%20list.md)
+</div>
+</details>
+
 - [원형 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/2.%20Circular%20linked%20list.md)
 - [이중 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/3.%20Doubly%20linked%20list.md)
 - [스택](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/4.%20Stack.md)
