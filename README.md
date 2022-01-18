@@ -1,7 +1,7 @@
 # Today I Learned
 - (2021. 12. 28 ~ )
 ## 작성규칙
-- 수업시간에 빠르게 타이핑한 후, 나중에 문서화하며 복습한다.
+- 날마다 배운 내용을 문서화하며 복습합니다.
 - 이론에 관련된 내용은 .md 파일로 기록한다.
 - 이론을 적용하여 실습한 내용은 example source code 대주제 폴더 에 기록한다.
 - [namjunemy](https://github.com/namjunemy)님의 Github "TIL" 저장소을 참조하여 작성.
