@@ -74,6 +74,7 @@
 - [버전관리](https://github.com/97Fekim/TIL/blob/master/Git/2.%20Version%20management.md)
 - [브랜치](https://github.com/97Fekim/TIL/blob/master/Git/3.%20Branch.md)
 - [원격저장소(Github)](https://github.com/97Fekim/TIL/blob/master/Git/4.%20Remote%20Rapository(Github).md)
+- [깃 활용 협업 시나리오](https://github.com/97Fekim/TIL/blob/master/Git/5.%20%EA%B9%83%20%ED%98%91%EC%97%85%20%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.md)
 
 </div>
 </details>
