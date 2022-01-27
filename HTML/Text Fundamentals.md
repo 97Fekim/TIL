@@ -5,13 +5,13 @@
 * 기사, 신문, 교과서, 잡지 등 무엇을 읽든 간에 텍스트는 제목과 단락으로 구성된다. 구조화된 텍스트는 그렇지 않은 텍스트보다 더 쉽고 잘 읽힌다.
 * HTML에서 각 단락은 아래의 코드처럼 <code>&lt;p&gt;</code> 요소 안에 둘러싸여 있어야 한다.
 
-```
+```html
 <p>But i am a women</p>
 ```
 
 * 각 제목도 아래의 코드처럼 **heading** 요소 안에 둘러싸여 있어야 한다. 
 
-```
+```html
 <h>I'm your father.</h>
 ```
 
@@ -19,7 +19,7 @@
 * 각 요소에서는 문서에서 다른 수준의 내용을 나타낸다. 메인 제목을 <code>&lt;h1&gt;</code>으로 나타내고, 소제목을 <code>&lt;h2&gt;</code>, 소제목의 소제목을 <code>&lt;h3&gt;</code> 로 나타내는 방식이다.
 ## 구조화된 계층 구현하기
 
-```
+```html
 <h1>"h1 제목"</h1>
 <p>"h1 단락"</p>
 <h2>"h2 제목"</h2>
@@ -53,7 +53,7 @@
 * &lt;ul&gt;은 unordered list를 의미한다. (순서가 없는)
 * &lt;ol&gt;은 ordered list를 의미한다. (순서가 있는)
 
-```
+```html
 <ul>
 milk
 eggs
@@ -70,7 +70,7 @@ bread
 hummus
 </ul>
 
-```
+```html
 <ul>
     <li>milk</li>
     <li>eggs</li>
@@ -89,7 +89,7 @@ hummus
 
 ### 2. 순서 있는 리스트 (&lt;ol&gt;)
 
-```
+```html
 <ol>
 Drive to the end of the road
 Turn right
@@ -108,7 +108,7 @@ Turn left at the third roundabout
 The school is on your right, 300 meters up the road
 </ol>
 
-```
+```html
 <ol>
   <li>Drive to the end of the road</li>
   <li>Turn right</li>
@@ -129,7 +129,7 @@ The school is on your right, 300 meters up the road
 
 ### 리스트 내부의 리스트 (Nesting lists)
 
-```
+```html
 <ol>
   <li>Remove the skin from the garlic, and chop coarsely.</li>
   <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
@@ -150,7 +150,7 @@ The school is on your right, 300 meters up the road
   <li>If you want a smooth hummus, process it for a longer time.</li>
 </ol>
 
-```
+```html
 <ol>
     <li>Remove the skin from the garlic, and chop coarsely.</li>
     <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
@@ -179,7 +179,7 @@ The school is on your right, 300 meters up the road
 ### 1. 중요(Emphasis)
 * 대표적으로 &lt;em&gt;(emphasis) 가 사용된다.
 
-```
+```html
 <p>I am <em>glad</em> you weren't <em>late</em>.</p>
 ```
 
@@ -189,7 +189,7 @@ The school is on your right, 300 meters up the road
 ### 2. 강조(Strong importance)
 * 대표적으로 &lt;strong&gt;가 사용된다.
 
-```
+```html
 <p>This liquid is <strong>highly toxic</strong>.</p>
 ```
 
