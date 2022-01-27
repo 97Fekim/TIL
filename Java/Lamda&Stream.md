@@ -38,3 +38,12 @@ public class Lambda {
 ## reduce()
 - 람다식의 마지막(terminal operator)에만 들어간다
 
+
+# Declarative vs Imperative
+- 자바 8 이후로, 람다식을 자바에서 사용할 수 있게 되었다.
+- 선언형은 <strong>무엇</strong>을 할지를 나열하고,
+- 명령형은 <strong>어떻게</strong> 할지를 구현한다.
+
+# ETC(마구잡이)
+- <strong>reduce, collect, forEach</strong> 는 종단메소드로, 스트림의 마지막에 온다.
+- <strong>filter, map</strong> 은 중간메소드로, 스트림의 중간에 온다.
