@@ -5,13 +5,10 @@
 - 실제 작업을 진행할 style.css 파일과 reset.css 파일 두가지를 준비한다.
 - 꼭 reset.css 파일을 준비해 놓는다.
 (html5doctor 사이트에서 제공하는 소스를 사용한다.)
-
 ## images 폴더
 - 작업에 사용될 이미지들이 저장될 폴더이다.
-
 ## js
 - 페이지를 동적으로 움직이게 하기 위한 소스들이 담길 디렉토리이다.
-
 ## plugins
 - 
 
@@ -20,3 +17,10 @@
 - 그래서 클래스를 이용하여 삽입하는 방식을 사용한다.
 > div 태그에 class를 붙인후, css 파일에서 class에 url을 넣는다.<br>
 ><strong>그리고 html, body 태그와 함께, width height를 모두 100%로 적용해준다</strong>
+
+# 슬라이더
+- [bxslider 사용법](https://github.com/97Fekim/TIL/blob/master/Front-End/Web%20design/bxslider.md) 참조
+
+# 도트 이미지
+- 도트 이미지를 사용하면 작은 점들을 화면에 골고루 뿌려, 어두운 분위기를 연출하는 효과를 얻는다.
+- 사용할때 z-index를 양수로 설정함으로써, 화면에 보이도록 해야한다.
