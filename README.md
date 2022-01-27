@@ -54,7 +54,7 @@
 </div>
 </details>
 
-<details>
+<details display="open">
 <summary> <strong>Git</strong> </summary>
 <div markdown="1">
 
