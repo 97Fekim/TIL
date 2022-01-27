@@ -6,7 +6,7 @@
 - @FunctionalInterface Annotation을 붙이면, 함수형 인터페이스임을 자바가 알게 된다. Annotation을 안넣어도 상관 없다.
 - Optional은 null이 반환받을 가능성이 있는 변수를 선언할 때 사용한다. try catch를 지저분하게 사용하지 않을 수 있기 때문에 사용한다. 그리고 데이터를 꺼내올때는 .get()을 사용하여 꺼내온다
  
-```
+```java
 @FunctionalInterface
 public interface MySum { 
     public int sum(int a, int b);
