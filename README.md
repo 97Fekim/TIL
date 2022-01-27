@@ -1,6 +1,6 @@
 # Today I Learned
 
-- (2021. 12. 28 ~ )
+- 백짓장도 만들면 낫다 (2021. 12. 28 ~ )
 ## 작성요령
 - 날마다 배운 내용을 문서화하며 복습.
 - [namjunemy/TIL](https://github.com/namjunemy)와 [TheAlgorithms/Go](https://github.com/TheAlgorithms/Go#readme) 의 디자인을 참고하여 작성
