@@ -3,7 +3,7 @@
 
 ## 링크의 구조
 * <code>&lt;a&gt;</code>와 <code>href</code>속성은 이용해 하이퍼링크를 생성한다.
-```
+```html
 <p> I'm creating a link to 
 <a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>.
 </p>
@@ -15,7 +15,7 @@
 
 ## title 속성에 부가적인 정보를 더하기
 
-```
+```html
 <p>This link
 <a href="https://github.com/97Fekim" title="My Github">
 _My Github_</a> is my Github link
@@ -30,7 +30,7 @@ _My Github_</a> is my Github link
 ## Block level 링크
 * 링크로 바꾸고 싶은 이미지가 있다면, &lt;a&gt;와 &lt;/a&gt; 사이에 그 이미지를 넣기만 하면 된다.
 
-```
+```html
 <a href="https://www.mozilla.org/en-US/">
   <img src="mozilla-image.png" alt="mozilla logo that links to the mozilla homepage">
 </a>
