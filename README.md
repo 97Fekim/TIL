@@ -7,7 +7,7 @@
 
 ## 분류
 
-<details>
+<details open>
 <summary> <strong>Data Stucture</strong> </summary>
 <div markdown="1">
 
@@ -24,7 +24,7 @@
 </details>
 
 
-<details>
+<details open>
 <summary> <strong>Java</strong> </summary>
 <div markdown="1">
 
@@ -35,7 +35,7 @@
 </div>
 </details>
 
-<details>
+<details open>
 <summary> <strong>Python</strong> </summary>
 <div markdown="1">
 
@@ -43,9 +43,9 @@
 - [자료형](https://github.com/97Fekim/TIL/blob/master/Python/004.%20Data%20type.md)
 
 </div>
-</details>
+</details >
 
-<details>
+<details open>
 <summary> <strong>Spring</strong> </summary>
 <div markdown="1">
 
@@ -54,7 +54,7 @@
 </div>
 </details>
 
-<details display="open">
+<details open>
 <summary> <strong>Git</strong> </summary>
 <div markdown="1">
 
@@ -67,7 +67,7 @@
 </div>
 </details>
 
-<details>
+<details open>
 <summary> <strong>Front-End</strong> </summary>
 <div markdown="1">
 
@@ -81,7 +81,7 @@
 </div>
 </details>
 
-<details>
+<details open>
 <summary> <strong>Abbreviation</strong> </summary>
 <div markdown="1">
 
@@ -90,7 +90,7 @@
 </div>
 </details>
 
-<details>
+<details open>
 <summary> <strong>IDE</strong> </summary>
 <div markdown="1">
 
