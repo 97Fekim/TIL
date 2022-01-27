@@ -7,7 +7,7 @@ import java.util.Map;
 
 ## 1. 키(Key), 값(Value) 저장(put), 읽기(get) 예
 
-```
+```java
 public class Main 
 {
 	public static void main(String[] args)
@@ -36,13 +36,13 @@ public class Main
 ## 3. putAll
 - <code>map1.putAll(map2)</code> : map1에게 map2의 모든 데이터를 넘겨준다.
 - 아래처럼 <code>putAll</code> 메소드 대신, 생성과 동시에 map의 모든 데이터를 넘겨줄 수도 있다.
-```
+```java
 Map<String,Integer> map2=new HashMap(map1);
 ```
 
 ## 4. keySet을 사용한 모든 키 순회
 - list처럼 증가하는 index를 사용할 방법이 없지만 keySet 메소드를 이용하여 키를 Set으로 넘겨주어 Map에 존재하는 키를 모두 순회할 수 있다.
-```
+```java
 public static void main(String[] ar) 
 {
 	Map<String,Integer> map=new HashMap();
@@ -66,7 +66,7 @@ All key-value pairs
 
 ## 5. Foreach() 메소드로 순환하기
 
-```
+```java
 Map<String,Integer> hm = new HashMap();
 hm.put("http", 80);
 hm.put("ssh", 22);
