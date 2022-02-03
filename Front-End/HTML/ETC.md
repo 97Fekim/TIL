@@ -21,28 +21,4 @@
 ```javascript
 <a href="google.com">구글로 가세요</a>
 ```
-
-### CSS BoxModel
-- margin > border > padding 순서로 컨텐츠를 감싼다.
-- CSS BoxModel 이미지를 참조한다.
-
-## jQuery
-- jQuery는 js 언어를 적용한다.
-- jQuery는 js로 만들어진 라이브러리
-- jQuery는 아래처럼 사용
-```javascript
-<script>
-    $(document).ready(function(e){ 
-            $('button').click(function(e){
-                console.log("버튼이 눌렸다.");
-            })
-        })
-</script>
-```
-- RGB로 색을 표현하면 색이 단순하다. 그래서 16진수로 색상을 표현한다
-- ff(255) ee(1110 1110) 33(0011 0011) 의 형태로.
-- 아래처럼 색을 표현한다.
-```javascript
-background-color : #ff00ff
-```
-
+- tfoot : 테이블의 마지막에 사용한다. thead > tbody > tfoot 순서
