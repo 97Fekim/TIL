@@ -3,3 +3,6 @@
 ## Bootstrap 적용하기
 * <code>&lt;head&gt;</code> 블럭에 Boostrap CDN 코드를 삽입하면, Bootstrap을 사용할 수 있다. [Bootstrap CDN 링크](http://bootstrapk.com/getting-started/)
 * 적용하고자 하는 CSS의 코드를 <code>&lt;body&gt;</code> 블럭에 삽입하여 다양한 CSS를 활용할 수 있다.
+
+## Bootstrap templates
+- 템플릿 코드를 다운로드 받아서, 템플릿을 사용 가능하다.
