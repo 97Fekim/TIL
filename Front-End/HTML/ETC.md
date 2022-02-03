@@ -16,6 +16,11 @@
 - tr : table row
 - th : table head
 - td : table data
+- caption : 표 제목을 사용하기 위해 table 태그 바로 아래에 사용
+- a : anchor를 뜻하며, 링크를 연결할때 사용한다. 아래처럼 사용한다. 
+```javascript
+<a href="google.com">구글로 가세요</a>
+```
 
 ### CSS BoxModel
 - margin > border > padding 순서로 컨텐츠를 감싼다.
@@ -40,3 +45,4 @@
 ```javascript
 background-color : #ff00ff
 ```
+
