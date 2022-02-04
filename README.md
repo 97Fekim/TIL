@@ -71,12 +71,9 @@
 <summary> <strong>Front-End</strong> </summary>
 <div markdown="1">
 
-- [HTML 시작하기](https://github.com/97Fekim/TIL/blob/master/Front-End/HTML/Start%20HTML.md)
-- [head (메타데이터)](https://github.com/97Fekim/TIL/blob/master/Front-End/HTML/Head.md)
-- [페이지 구성](https://github.com/97Fekim/TIL/blob/master/Front-End/HTML/Text%20Fundamentals.md)
-- [하이퍼링크](https://github.com/97Fekim/TIL/blob/master/Front-End/HTML/Hyperlink.md)
-- [브라켓을 활용한 html 편집](https://github.com/97Fekim/TIL/blob/master/Front-End/HTML/Edit%20using%20Bracket.md)
-- [부트스트랩 적용법](https://github.com/97Fekim/TIL/blob/master/Front-End/Web%20design/Bootstrap.md)
+- [HTML](https://github.com/97Fekim/TIL/tree/master/Front-End/HTML)
+- [CSS)](https://github.com/97Fekim/TIL/tree/master/Front-End/CSS)
+- [Javascript](https://github.com/97Fekim/TIL/tree/master/Front-End/Javascript)
 
 </div>
 </details>
