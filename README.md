@@ -72,7 +72,7 @@
 <div markdown="1">
 
 - [HTML](https://github.com/97Fekim/TIL/tree/master/Front-End/HTML)
-- [CSS)](https://github.com/97Fekim/TIL/tree/master/Front-End/CSS)
+- [CSS](https://github.com/97Fekim/TIL/tree/master/Front-End/CSS)
 - [Javascript](https://github.com/97Fekim/TIL/tree/master/Front-End/Javascript)
 
 </div>
