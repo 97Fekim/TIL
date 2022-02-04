@@ -10,7 +10,8 @@
 - blockquote tag : 다른 블로그나 사이트의 글을 인용할때 사용. 이때 인용한 문장은 다른 텍스트보다 안으로 들여 써지므로 다른 텍스트와 구별됨
 - hr tag : horizontal line의 약자로 줄긋기
 - mark tag : 형광펜으로 칠한다
-
+- col tag : 행렬중 열을 의미한다.
+-
 ### 테이블
 - table>tr>th 입력시 자동으로 테이블이 완성된다.
 - tr : table row
