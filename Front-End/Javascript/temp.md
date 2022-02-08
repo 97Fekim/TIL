@@ -26,3 +26,9 @@
 - jQuery의 addClass, removeClass
 - 3버튼 번갈아가며 색칠(jQuery addClass, removeClass 이용)
 - input 클래스의 모든 값 더하기 (jQuery, Number)
+### 0208
+- input에 값 집어넣기 ( .val() 이용 )
+- input값 가져와서 출력하기, 태그의 값 변경하기 ( .val(), .attr() 이용)
+- 32가지 case별 태그에 스타일 넣는 방법
+- select 태그 이용, 선택한 문자열을 input 태그에 삽입하는 예제.
+- 
