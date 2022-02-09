@@ -31,4 +31,8 @@
 - input값 가져와서 출력하기, 태그의 값 변경하기 ( .val(), .attr() 이용)
 - 32가지 case별 태그에 스타일 넣는 방법
 - select 태그 이용, 선택한 문자열을 input 태그에 삽입하는 예제.
+### 0209
+- input 태그를 배열로 관리
+- select, optgroup, datalist, option 태그
+- select 태그의 값을 다른 input에 자동으로 입력
 - 
