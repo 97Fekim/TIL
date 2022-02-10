@@ -35,4 +35,9 @@
 - input 태그를 배열로 관리
 - select, optgroup, datalist, option 태그
 - select 태그의 값을 다른 input에 자동으로 입력
-- 
+### 0210
+- progress 태그
+- 태그의 속성값 가져오기 (.attr(element))
+- <strong>semantic tag</strong> : header, nav(navigator), main, fotter 로 이루어진 html 골격 구조
+- addClass(), removeClass() 이용
+- text-shadow 예제
