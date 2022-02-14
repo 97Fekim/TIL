@@ -41,3 +41,8 @@
 - <strong>semantic tag</strong> : header, nav(navigator), main, fotter 로 이루어진 html 골격 구조
 - addClass(), removeClass() 이용
 - text-shadow 예제
+### 0214
+- prompt()함수를 이용해 윈도우 창으로 값 읽어오기
+- 명시적/암묵적 형변환
+- 객체 구조분해 (key.key.key.key........)
+- 버튼으로 이미지 위치 변경
