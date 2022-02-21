@@ -42,10 +42,17 @@
 - addClass(), removeClass() 이용
 - text-shadow 예제
 ### 0214
-- prompt()함수를 이용해 윈도우 창으로 값 읽어오기
+- prompt()함수를 이용해 윈도우 창으로 값 읽어오
 - 명시적/암묵적 형변환
 - 객체 구조분해 (key.key.key.key........)
 - 버튼으로 이미지 위치 변경
 ### 0217
 - each문 학습(버튼과 input으로 응용)
 - closure (내부 함수가 자신이 선언되었을때의 환경을 기억하여, 자신이 선언되었을때의 환경 밖에서 호출되어도, 그 환경을 기억할 수 있는 함수)
+### 0221
+- node.js 설치
+- 터미널에서 javascript 명령어 사용하기 (node 명령어로 접속)
+- react로 간단한 hello world 앱 만들기
+- 리액트는 SPA(Single Page Application)이다. 하나의 페이지에서 동작하는것.
+- 함수형 Component 만들기(Components 폴더에 대문자로 ____.js 파일)
+- (rafce + Enter : 자동완성)
