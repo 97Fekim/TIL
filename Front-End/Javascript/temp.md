@@ -22,7 +22,7 @@
 - id, class 이용 색 바꾸기 (id, class, jQuery, .css)
 - button 이용 target 추가 (jQuery, .attr)
 - fieldset, id, class, .change 이용 버튼 색 추가 (jQuery, .change, .css,)
-- label 태그의 post, get 방식
+- form 태그의 post, get 방식
 - jQuery의 addClass, removeClass
 - 3버튼 번갈아가며 색칠(jQuery addClass, removeClass 이용)
 - input 클래스의 모든 값 더하기 (jQuery, Number)
@@ -38,11 +38,11 @@
 ### 0210
 - progress 태그
 - 태그의 속성값 가져오기 (.attr(element))
-- <strong>semantic tag</strong> : header, nav(navigator), main, fotter 로 이루어진 html 골격 구조
+- <strong>semantic tag</strong> : header, nav(navigator), main, footer 로 이루어진 html 골격 구조
 - addClass(), removeClass() 이용
 - text-shadow 예제
 ### 0214
-- prompt()함수를 이용해 윈도우 창으로 값 읽어오
+- prompt()함수를 이용해 윈도우 창으로 값 읽어오기
 - 명시적/암묵적 형변환
 - 객체 구조분해 (key.key.key.key........)
 - 버튼으로 이미지 위치 변경
@@ -52,7 +52,17 @@
 ### 0221
 - node.js 설치
 - 터미널에서 javascript 명령어 사용하기 (node 명령어로 접속)
-- react로 간단한 hello world 앱 만들기
+- react로 간단한 hello world 앱 만들기 (리액트 초기설정하는 방법, 프로젝트 생성및 관리와 빌드)
+- [리액트 프로젝트 생성](https://velog.io/@rkdden12/React-1-Hello-World)
 - 리액트는 SPA(Single Page Application)이다. 하나의 페이지에서 동작하는것.
 - 함수형 Component 만들기(Components 폴더에 대문자로 ____.js 파일)
-- (rafce + Enter : 자동완성)
+- (rafce + Enter : 자동완성)#
+### 0224
+- Hello.js, Say.js 같이 .js 가 들어간 파일을 컴포넌트라 칭한다/
+- 컴포넌트는 일종의 UI 조각이라고 생각하면 이해하기 쉽다.
+- JSX는 리액트에서 생김새를 정의할 때 사용하는 문법이다.
+- Self Closing 태그 (하나의 태그에 닫힘이 들어간 태그)를 사용하면 하나의 태그로 바로 열고 닫힌 태그를 만들 수 있다.
+- 두개 이상의 태그는 반드시 하나의 태그로 닫혀있어야 한다. 하지만 불필요한 태그 남용을 막기 위해 Fragment(이름없는 태그)를 사용 가능하다.
+- JSX에서 style과 CSS 클래스를 설정하는 방법은 html과 다르게, camelCase 형태로 네이밍 해주어야 한다. (예를들면 background-color -> backgroundColor)
+- JSX에서 Component에 parameter를 넘겨줄때 props를 사용한다. props를 여러개 넘겨주면 props.___로 사용 가능하다.
+- 
