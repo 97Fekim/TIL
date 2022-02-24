@@ -62,7 +62,9 @@
 - 컴포넌트는 일종의 UI 조각이라고 생각하면 이해하기 쉽다.
 - JSX는 리액트에서 생김새를 정의할 때 사용하는 문법이다.
 - Self Closing 태그 (하나의 태그에 닫힘이 들어간 태그)를 사용하면 하나의 태그로 바로 열고 닫힌 태그를 만들 수 있다.
-- 두개 이상의 태그는 반드시 하나의 태그로 닫혀있어야 한다. 하지만 불필요한 태그 남용을 막기 위해 Fragment(이름없는 태그)를 사용 가능하다.
+- 두개 이상의 태그는 반드시 하나의 태그로 닫혀있어야 한다. 하지만 불필요한 태그 남용을 막g기 위해 Fragment(이름없는 태그)를 사용 가능하다.
 - JSX에서 style과 CSS 클래스를 설정하는 방법은 html과 다르게, camelCase 형태로 네이밍 해주어야 한다. (예를들면 background-color -> backgroundColor)
 - JSX에서 Component에 parameter를 넘겨줄때 props를 사용한다. props를 여러개 넘겨주면 props.___로 사용 가능하다.
+- useState 활용(Counter, Input관리)
+- setTimeout() : x초 후에 함수 실행
 - 
