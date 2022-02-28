@@ -67,4 +67,3 @@
 - JSX에서 Component에 parameter를 넘겨줄때 props를 사용한다. props를 여러개 넘겨주면 props.___로 사용 가능하다.
 - useState 활용(Counter, Input관리)
 - setTimeout() : x초 후에 함수 실행
-- 

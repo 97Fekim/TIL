@@ -35,21 +35,21 @@
 </div>
 </details>
 
-<details open>
-<summary> <strong>Python</strong> </summary>
-<div markdown="1">
-
-- [Python](https://github.com/97Fekim/TIL/tree/master/Python)
-- [자료형](https://github.com/97Fekim/TIL/blob/master/Python/004.%20Data%20type.md)
-
-</div>
-</details >
 
 <details open>
 <summary> <strong>Spring</strong> </summary>
 <div markdown="1">
 
 - [스프링 입문](https://github.com/97Fekim/TIL/tree/master/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8)
+
+</div>
+</details>
+
+<details open>
+<summary> <strong>Database</strong> </summary>
+<div markdown="1">
+
+- []()
 
 </div>
 </details>
@@ -95,3 +95,13 @@
 
 </div>
 </details>
+
+<details open>
+<summary> <strong>Python</strong> </summary>
+<div markdown="1">
+
+- [Python](https://github.com/97Fekim/TIL/tree/master/Python)
+- [자료형](https://github.com/97Fekim/TIL/blob/master/Python/004.%20Data%20type.md)
+
+</div>
+</details >
