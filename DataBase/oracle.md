@@ -28,9 +28,17 @@ insert into TABLE_NAME(columm1, columm2 ...) values(data1, data2 ...)
 ```
 
 ## select 문
+- 1. 모든 데이터 가져오기
 ```sql
--- table의 모든 데이터 출력하기
-select * fromt TABLE_NAME;
+select * from TABLE_NAME;
+```
+- 2. 데이터의 갯수를 가져오기
+```sql
+select count(DATA_NAME) from TABLE_NAME;
+```
+- 3. 데이터 중복 제거 후 가져오기
+```sql
+select DATA_NAME "MODIFYED_NAME" from TABLE_NAME;
 ```
 
 ## drop 문
