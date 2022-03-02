@@ -38,7 +38,7 @@ select count(DATA_NAME) from TABLE_NAME;
 ```
 - 3. 데이터 중복 제거 후 가져오기
 ```sql
-select DATA_NAME "MODIFYED_NAME" from TABLE_NAME;
+select distinct DATA_NAME from TABLE_NAME;
 ```
 
 ## drop 문
