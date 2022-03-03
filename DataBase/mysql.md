@@ -5,6 +5,8 @@
 
 # 환경 설정
 - 버전문제로 8.0.20 버전 설치 (최신은 27)
+- 환경변수/시스템변수/Path 에 mysql server가 설치된 경로(/bin)를 추가.
+- SET GLOBAL time_zone='Asia/Seoul'; SET time_zone='Asia/Seoul'; 을 입력해서 시간을 서울로 수정한다.
 - Workbench > 왼쪽아래 Administration tap 클릭 > 왼쪽 Server Status 클릭 > 재생버튼이 초록색인 것을 확인 > 정상설치 완료
 - 환경변수에서, mysql 서버의 .exe 파일의 경로를 path로 추가한다.
 - mysql 서버의 시간을 'SYSTEM' 에서 'ASIA/SEOUL' 로 변경한다.
@@ -138,3 +140,16 @@ select cast(5.45 as signed int);
 select cast('2020$12$12' as date);
 ```
 
+# temp(0303) (추후에 정리)
+- switch case
+- ascii()
+- format() : 소수점
+- bin(), hex(), oct() : 2,16,8진수 출력
+- left(), right()
+- LCASE(), UCASE() : isUpper, inLower 라고 보면 된다.
+- LPAD(), RPAD() : 문자열의 왼쪽이나 오른쪽에 길이를 늘린 후, 문자를 추가한다.
+- LTRIM(), RTRIM() : 문자열의 왼쪽이나 오른쪽의 공백을 제거한다. 중간의 공백은 제거하지 않는다.
+- TRIM()
+- SUBSTRING(string, a, b) : 문자열을 b개로 쪼갠후 a번째를 가져온다.
+- ADDDATE() : 날짜 데이터에 인자만큼 날짜를 더한다. day, month, year 모두 가능하다.
+- alter : table을 수정한다
