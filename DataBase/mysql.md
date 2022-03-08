@@ -140,7 +140,8 @@ select cast(5.45 as signed int);
 select cast('2020$12$12' as date);
 ```
 
-# temp(0303) (추후에 정리)
+# temp (추후에 정리)
+## 0303
 - switch case
 - ascii()
 - format() : 소수점
@@ -153,3 +154,9 @@ select cast('2020$12$12' as date);
 - SUBSTRING(string, a, b) : 문자열을 b개로 쪼갠후 a번째를 가져온다.
 - ADDDATE() : 날짜 데이터에 인자만큼 날짜를 더한다. day, month, year 모두 가능하다.
 - alter : table을 수정한다
+## 0308
+- 실습6.sql
+- procedure와 function 학습
+- JDBC = Java DataBase Connection
+- 트리거 학습
+- 트리거 조회 하는 방법
