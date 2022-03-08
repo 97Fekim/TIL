@@ -140,6 +140,27 @@ select cast(5.45 as signed int);
 select cast('2020$12$12' as date);
 ```
 
+# Procedure
+- Function과 유사하지만 다른 특성을 가진 처리기
+```sql
+-- delimiter의 생성
+delimiter $$
+create procedure ifProc()
+begin 
+	declare var1 int;	
+    set var1 = 100;		
+    
+    if var1 = 100 then 	
+	select '100입니다';
+	else
+		select '100이 아닙니다.';
+	end if;
+end $$
+delimiter ;		-- 여기까지 프로시저 생성
+call ifproc();	-- 호출
+```
+
+
 # temp(0303) (추후에 정리)
 - switch case
 - ascii()
@@ -153,3 +174,4 @@ select cast('2020$12$12' as date);
 - SUBSTRING(string, a, b) : 문자열을 b개로 쪼갠후 a번째를 가져온다.
 - ADDDATE() : 날짜 데이터에 인자만큼 날짜를 더한다. day, month, year 모두 가능하다.
 - alter : table을 수정한다
+
