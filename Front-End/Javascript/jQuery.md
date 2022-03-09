@@ -7,7 +7,7 @@
 - js 코드를 html 문서에서 사용하려면 script 태그를 활용.
 - 이벤트와 이벤트 핸들러(함수)는 1대1 대응 되고, 이벤트가 발생하면 그에 대응되는 이벤트 핸들러(함수)가 호출되도록 등록을 해야함.
 
-```javascript
+```js
 <script>
     $(document).ready(function(e){ 
             $('button').click(function(e){

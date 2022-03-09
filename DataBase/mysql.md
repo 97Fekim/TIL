@@ -140,6 +140,7 @@ select cast(5.45 as signed int);
 select cast('2020$12$12' as date);
 ```
 
+<<<<<<< HEAD
 # Procedure
 - Function과 유사하지만 다른 특성을 가진 처리기
 ```sql
@@ -162,6 +163,10 @@ call ifproc();	-- 호출
 
 
 # temp(0303) (추후에 정리)
+=======
+# temp (추후에 정리)
+## 0303
+>>>>>>> d788f836ce40e87721feb7a63698c0b882e1adc6
 - switch case
 - ascii()
 - format() : 소수점
@@ -174,4 +179,13 @@ call ifproc();	-- 호출
 - SUBSTRING(string, a, b) : 문자열을 b개로 쪼갠후 a번째를 가져온다.
 - ADDDATE() : 날짜 데이터에 인자만큼 날짜를 더한다. day, month, year 모두 가능하다.
 - alter : table을 수정한다
+<<<<<<< HEAD
 
+=======
+## 0308
+- 실습6.sql
+- procedure와 function 학습
+- JDBC = Java DataBase Connection
+- 트리거 학습
+- 트리거 조회 하는 방법
+>>>>>>> d788f836ce40e87721feb7a63698c0b882e1adc6
