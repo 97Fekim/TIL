@@ -78,10 +78,13 @@
 </details>
 
 <details open>
-<summary> <strong>Abbreviation</strong> </summary>
+<summary> <strong>Servlet</strong> </summary>
 <div markdown="1">
 
-- [Abbreviation](https://github.com/97Fekim/TIL/blob/master/Abbreviation/001.%20Abbreviation.md)
+- [생명주기 메소드](https://github.com/97Fekim/TIL/blob/master/Servlet/2.%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%20%EB%A9%94%EC%86%8C%EB%93%9C.md)
+- [jsp와 서블릿](https://github.com/97Fekim/TIL/blob/master/Servlet/3.%20jsp%EC%99%80%20%EC%84%9C%EB%B8%94%EB%A6%BF.md)
+- [JDBC](https://github.com/97Fekim/TIL/blob/master/Servlet/4.%20jdbc.md)
+- [Filter](https://github.com/97Fekim/TIL/blob/master/Servlet/5.%20Filter.md)
 
 </div>
 </details>
