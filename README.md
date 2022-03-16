@@ -101,8 +101,7 @@
 <summary> <strong>Python</strong> </summary>
 <div markdown="1">
 
-- [Python](https://github.com/97Fekim/TIL/tree/master/Python)
-- [자료형](https://github.com/97Fekim/TIL/blob/master/Python/004.%20Data%20type.md)
+- [기초 문법](https://github.com/97Fekim/TIL/tree/master/Python)
 
 </div>
 </details >
