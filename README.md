@@ -25,9 +25,8 @@
 <summary> <strong>Java</strong> </summary>
 <div markdown="1">
 
-- [Java](https://github.com/97Fekim/Java_basic)
-- [해쉬맵 사용하기](https://github.com/97Fekim/TIL/blob/master/Java/HashMap.md)
-- [StringBuffer 사용하기](https://github.com/97Fekim/TIL/blob/master/Java/StringBuffer.md)
+- [기초 문법](https://github.com/97Fekim/Java_basic)
+- [Collections](https://github.com/97Fekim/TIL/tree/master/Java/Collections.md)
 
 </div>
 </details>
