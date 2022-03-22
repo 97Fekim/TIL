@@ -20,7 +20,6 @@
 </div>
 </details>
 
-
 <details open>
 <summary> <strong>Java</strong> </summary>
 <div markdown="1">
@@ -47,8 +46,8 @@
 <summary> <strong>Database</strong> </summary>
 <div markdown="1">
 
-- [mysql](https://github.com/97Fekim/TIL/blob/master/DataBase/mysql.md)
-- [Oracle](https://github.com/97Fekim/TIL/blob/master/DataBase/oracle.md)
+- [Mysql 기본 문법](https://github.com/97Fekim/TIL/blob/master/DataBase/mysql.md)
+- [Oracle 기본 문법](https://github.com/97Fekim/TIL/blob/master/DataBase/oracle.md)
 
 </div>
 </details>
