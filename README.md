@@ -8,9 +8,7 @@
 <summary> <strong>Data Stucture</strong> </summary>
 <div markdown="1">
 
-- [선형 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/1.%20Linked%20list.md)
-- [원형 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/2.%20Circular%20linked%20list.md)
-- [이중 연결리스트](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/3.%20Doubly%20linked%20list.md)
+- [연결리스트](https://github.com/97Fekim/TIL/tree/master/Data%20Structure/Linked%20list)
 - [스택](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/4.%20Stack.md)
 - [큐](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/5.%20Queue.md)
 - [트리](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/6.%20Tree.md)
