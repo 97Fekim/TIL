@@ -1,4 +1,4 @@
-# Today I Learned
+# _Today I Learned_
 
 - 백짓장도 만들면 낫다 (2021. 12. 28 ~ )
 
