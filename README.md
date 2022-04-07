@@ -1,7 +1,5 @@
 # _Today I Learned_
 
-2021. 12. 28 ~ 
-
 ## 분류
 
 <details open>
