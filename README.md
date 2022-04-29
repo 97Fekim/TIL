@@ -1,4 +1,4 @@
-# _Today I Learned_
+# Today I Learned
 
 ## 분류
 
