@@ -2,7 +2,7 @@
 
 ## 분류
 
-<details open>
+<details>
 <summary> <strong>Data Stucture</strong> </summary>
 <div markdown="1">
 
