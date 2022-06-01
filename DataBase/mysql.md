@@ -57,10 +57,20 @@ select name, height from usertbl where name like '%Hi';
 select name, height from usertbl where name like '_Hi';
 ```
 
+# 조건 조회
+
 ## ifNull
 ```sql
 -- NAME 칼럼의 데이터를 가져오는데, null인 경우 'No name'으로 치환해서 가져온다
 SELECT ifNull(NAME,'No name') from animal_ins order by animal_id;
+```
+
+## if를 이용한 조회
+```sql
+-- if 안의 수식이 참일경우 'O', 거짓일 경우'X' 로 치환하여 가져온다.
+SELECT ANIMAL_ID, NAME, 
+if(SEX_UPON_INTAKE like '%Neutered%' or SEX_UPON_INTAKE like '%Spayed%','O','X') as '중성화'
+from animal_ins
 ```
 
 ## sub query
