@@ -57,6 +57,12 @@ select name, height from usertbl where name like '%Hi';
 select name, height from usertbl where name like '_Hi';
 ```
 
+## ifNull
+```sql
+-- NAME 칼럼의 데이터를 가져오는데, null인 경우 'No name'으로 치환해서 가져온다
+SELECT ifNull(NAME,'No name') from animal_ins order by animal_id;
+```
+
 ## sub query
 - query안에 또다른 query를 사용하는걸 sub query라고 한다.
 - 주의해야할 점은 sub query가 두개 이상을 반환하면, any나 all을 적용해야 한다.
