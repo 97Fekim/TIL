@@ -73,6 +73,12 @@ if(SEX_UPON_INTAKE like '%Neutered%' or SEX_UPON_INTAKE like '%Spayed%','O','X')
 from animal_ins
 ```
 
+## 날짜 포맷팅
+```sql
+-- datetime 칼럼의 데이터를, '%Y-%m-%d' 형식으로 가져온다.
+select date_format(datetime, '%Y-%m-%d') from animal_ins
+```
+
 ## sub query
 - query안에 또다른 query를 사용하는걸 sub query라고 한다.
 - 주의해야할 점은 sub query가 두개 이상을 반환하면, any나 all을 적용해야 한다.
