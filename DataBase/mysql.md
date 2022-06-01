@@ -112,6 +112,8 @@ select userid, sum(amount) from buytbl group by userid;
 
 ## having 절
 - where 구문에 집계함수가 들어갈 수 없다. 써야할 경우에는 having문으로 사용한다.
+- having은 group by 쿼리의 where 절이라고 보면 된다.
+- <code>group by ___ having ___</code> 의 형태로 사용한다.
 
 ## update
 - update시 safe Error가 발생할 수 있다.
