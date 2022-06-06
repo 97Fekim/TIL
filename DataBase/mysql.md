@@ -57,6 +57,28 @@ select name, height from usertbl where name like '%Hi';
 select name, height from usertbl where name like '_Hi';
 ```
 
+# 조건 조회
+
+## ifNull
+```sql
+-- NAME 칼럼의 데이터를 가져오는데, null인 경우 'No name'으로 치환해서 가져온다
+SELECT ifNull(NAME,'No name') from animal_ins order by animal_id;
+```
+
+## if를 이용한 조회
+```sql
+-- if 안의 수식이 참일경우 'O', 거짓일 경우'X' 로 치환하여 가져온다.
+SELECT ANIMAL_ID, NAME, 
+if(SEX_UPON_INTAKE like '%Neutered%' or SEX_UPON_INTAKE like '%Spayed%','O','X') as '중성화'
+from animal_ins
+```
+
+## 날짜 포맷팅
+```sql
+-- datetime 칼럼의 데이터를, '%Y-%m-%d' 형식으로 가져온다.
+select date_format(datetime, '%Y-%m-%d') from animal_ins
+```
+
 ## sub query
 - query안에 또다른 query를 사용하는걸 sub query라고 한다.
 - 주의해야할 점은 sub query가 두개 이상을 반환하면, any나 all을 적용해야 한다.
@@ -112,6 +134,8 @@ select userid, sum(amount) from buytbl group by userid;
 
 ## having 절
 - where 구문에 집계함수가 들어갈 수 없다. 써야할 경우에는 having문으로 사용한다.
+- having은 group by 쿼리의 where 절이라고 보면 된다.
+- <code>group by ___ having ___</code> 의 형태로 사용한다.
 
 ## update
 - update시 safe Error가 발생할 수 있다.
