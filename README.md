@@ -69,6 +69,8 @@
 <div markdown="1">
 
 - [리눅스 기초 명령어](https://github.com/97Fekim/TIL/blob/master/Infra/01.%20Linux%20basic.md)
+- [AWS](https://github.com/97Fekim/TIL/blob/master/Infra/04.%20AWS.md)
+- [CI&CD](https://github.com/97Fekim/TIL/blob/master/Infra/03.%20CI%26CD.md)
 - [Nginx](https://github.com/97Fekim/TIL/blob/master/Infra/02.%20Nginx.md)
 
 </div>
