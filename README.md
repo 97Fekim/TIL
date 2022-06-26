@@ -17,6 +17,15 @@
 </details>
 
 <details open>
+<summary> <strong>네트워크</strong> </summary>
+<div markdown="1">
+
+- [추후에 추가될 예정입니다.]()
+
+</div>
+</details>
+
+<details open>
 <summary> <strong>Java</strong> </summary>
 <div markdown="1">
 
