@@ -17,10 +17,11 @@
 </details>
 
 <details open>
-<summary> <strong>Network</strong> </summary>
+<summary> <strong>Computational Science</strong> </summary>
 <div markdown="1">
 
-- [추후에 추가될 예정입니다.]()
+- [운영체제(추후에 추가될 예정입니다.)]()
+- [네트워크(추후에 추가될 예정입니다.)]()
 
 </div>
 </details>
