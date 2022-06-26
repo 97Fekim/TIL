@@ -2,26 +2,14 @@
 
 ## 분류
 
-<details>
-<summary> <strong>Data Stucture</strong> </summary>
-<div markdown="1">
-
-- [연결리스트](https://github.com/97Fekim/TIL/tree/master/Data%20Structure/Linked%20list)
-- [스택](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/4.%20Stack.md)
-- [큐](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/5.%20Queue.md)
-- [트리](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/6.%20Tree.md)
-- [그래프](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/7.%20Gragh.md)
-- [정렬](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/8.%20Sort.md)
- 
-</div>
-</details>
-
 <details open>
-<summary> <strong>Computational Science</strong> </summary>
+<summary> <strong>Computational Science(CS)</strong> </summary>
 <div markdown="1">
 
+- [자료구조](https://github.com/97Fekim/TIL/tree/master/Data%20Structure)
 - [운영체제(추후에 추가될 예정입니다.)]()
 - [네트워크(추후에 추가될 예정입니다.)]()
+- [데이터베이스(추후에 추가될 예정입니다.)]() 
 
 </div>
 </details>
