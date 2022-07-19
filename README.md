@@ -63,6 +63,15 @@
 </details>
 
 <details open>
+<summary> <strong>방법론</strong> </summary>
+<div markdown="1">
+
+- [소프트웨어 품질 개론]()
+
+</div>
+</details>
+
+<details open>
 <summary> <strong>Infra</strong> </summary>
 <div markdown="1">
 
