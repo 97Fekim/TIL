@@ -67,7 +67,7 @@
 <summary> <strong>방법론</strong> </summary>
 <div markdown="1">
 
-- [DTO, DAO, VO]()
+- [DTO, DAO, VO](https://github.com/97Fekim/TIL/blob/master/Methology/dto_dao_vo.md)
 
 </div>
 </details>
