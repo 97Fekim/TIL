@@ -42,7 +42,11 @@ select distinct DATA_NAME from TABLE_NAME;
 -- 학생의 이름이 없으면 '이름이 없음'으로 가져옴
 SELECT NVL(name, '이름이 없음') FROM tbl_student;
 ```
-
+- 5. 특정값을 만족하는 데이터 조회
+```sql
+-- student_id가 20,40,60 셋 중 하나인 데이터만 조회해 온다.
+SELECT * FROM tbl_student WHERE student_id IN (20,40,60);
+```
 
 
 ## drop 문
