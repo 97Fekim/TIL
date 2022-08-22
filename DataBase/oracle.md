@@ -37,6 +37,13 @@ select count(DATA_NAME) from TABLE_NAME;
 ```sql
 select distinct DATA_NAME from TABLE_NAME;
 ```
+- 4. null을 다른 문자로 치환하여 가져오기(NVL)
+```sql
+-- 학생의 이름이 없으면 '이름이 없음'으로 가져옴
+SELECT NVL(name, '이름이 없음') FROM tbl_student;
+```
+
+
 
 ## drop 문
 ```sql
