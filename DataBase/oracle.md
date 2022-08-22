@@ -1,13 +1,10 @@
-- sql developer, OracleXE112 파일 설치
 - 주석 : <code>--</code>
-- grant로 권한을 부여하는것이 첫번째, 그래야 데이터베이스를 관리할 수 있다.
 - Oracle은 mysql과 다르게, 데이터의 삽입 명령의 마지막에 꼭 <strong>commit;</strong>을 써줘야 변경사항이 적용된다.
 
 # SQL 기초 데이터 타입
 - number(n) : n자리의 숫자
 - varchar2(n) : n자리의 문자 (Oracle에서만 varchar2 사용)
-- data : 날짜 타입
-- 
+- date : 날짜 타입
 
 # SQL 기초문법 활용
 ## create 문
