@@ -46,6 +46,7 @@
 
 - [Mysql 기본 문법](https://github.com/97Fekim/TIL/blob/master/DataBase/mysql.md)
 - [Oracle 기본 문법](https://github.com/97Fekim/TIL/blob/master/DataBase/oracle.md)
+- [SQLD](https://github.com/97Fekim/TIL/blob/master/DataBase/sqld.md)
 
 </div>
 </details>
