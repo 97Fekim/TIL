@@ -1,3 +1,5 @@
+본문은 [SQL 자격검정 실전문제, K data 한국데이터산업진흥원](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788988474846) 책 내용을 바탕으로 작성되었습니다.
+
 # 1. 데이터 모델링의 이해
 
 - <strong>발생시점에 따른 엔티티 분류</strong>
