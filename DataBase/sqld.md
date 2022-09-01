@@ -120,8 +120,9 @@
 - <strong>CROSS JOIN이란</strong>
   테이블 간 JOIN 조건이 없는 경우 생길 수 있는 모든 데이터의 조합을 말한다. 결과는 양쪽 집합의 M\*N 건의 데이터 조합이 발생한다.
 
-- <strong>Inline View란?</strong>
-  서브쿼리가 FROM 절에 있는 경우를 말한다.
+- <strong>연관 서브쿼리(Correlated Subquery)란?</strong>
+  서브쿼리가 메인쿼리 컬럼을 포함하고 있는 형태의 서브쿼리
 
-- <strong>Nested Subquery란</strong>
-  서브쿼리가 WHERE 절에 있는 경우를 말한다.
+- <strong>Inline View와 Nested Subquery</strong>
+  Inline View : 서브쿼리가 FROM 절에 있는 경우를 말한다.
+  Nested Subquery : 서브쿼리가 WHERE 절에 있는 경우를 말한다.
