@@ -126,3 +126,5 @@
 - <strong>Inline View와 Nested Subquery</strong>
   Inline View : 서브쿼리가 FROM 절에 있는 경우를 말한다.
   Nested Subquery : 서브쿼리가 WHERE 절에 있는 경우를 말한다.
+
+.
