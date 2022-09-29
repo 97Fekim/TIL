@@ -62,6 +62,11 @@ SELECT NVL(name, '이름이 없음') FROM tbl_student;
 SELECT * FROM tbl_student WHERE student_id IN (20,40,60);
 ```
 
+## mergy 문
+
+insert, update를 섞어놓은 구문이라고 보면 된다.
+테이블에 데이터가 없다면 insert, 데이터가 있다면 update가 수행된다.
+
 ## drop 문
 
 ```sql
