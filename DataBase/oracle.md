@@ -124,3 +124,5 @@ position varchar(10) constraint professor_ck check(position in ('교수', '부�
 -- 테이블 TRUNCATE 프로시저 호출
 CALL SP_TRUNC_TABLE
 ```
+
+.
