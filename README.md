@@ -2,17 +2,15 @@
 
 ## 분류
 
-<details>
-<summary> <strong>Data Stucture</strong> </summary>
+<details open>
+<summary> <strong>Computational Science(CS)</strong> </summary>
 <div markdown="1">
 
-- [연결리스트](https://github.com/97Fekim/TIL/tree/master/Data%20Structure/Linked%20list)
-- [스택](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/4.%20Stack.md)
-- [큐](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/5.%20Queue.md)
-- [트리](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/6.%20Tree.md)
-- [그래프](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/7.%20Gragh.md)
-- [정렬](https://github.com/97Fekim/TIL/blob/master/Data%20Structure/8.%20Sort.md)
- 
+- [자료구조](https://github.com/97Fekim/TIL/tree/master/Data%20Structure)
+- [운영체제(추후에 추가될 예정)]()
+- [네트워크(추후에 추가될 예정)]()
+- [데이터베이스(추후에 추가될 예정)]() 
+
 </div>
 </details>
 
@@ -35,8 +33,9 @@
 - [스프링 시큐리티](https://github.com/97Fekim/TIL/blob/master/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0.md)
 - [[스프링 입문] 인프런, 김영한](https://github.com/97Fekim/TIL/tree/master/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8)
 - [[스프링 기본 원리] 인프런, 김영한](https://github.com/97Fekim/TIL/tree/master/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC%20%EC%9B%90%EB%A6%AC%20-%20%EA%B8%B0%EB%B3%B8)
-- [[코드로 배우는 스프링 웹 프로젝트(Xml, Maven, Mybtis)], 구멍가게 코딩단](https://github.com/97Fekim/TIL/tree/master/Spring/%EC%BD%94%EB%93%9C%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9B%B9%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+- [[코드로 배우는 스프링 웹 프로젝트(Xml, Maven, Mybatis)], 구멍가게 코딩단](https://github.com/97Fekim/TIL/tree/master/Spring/%EC%BD%94%EB%93%9C%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9B%B9%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 - [[코드로 배우는 스프링부트 웹 프로젝트(Boot, Gradle, JPA)], 구멍가게 코딩단](https://github.com/97Fekim/TIL/tree/master/Spring/%EC%BD%94%EB%93%9C%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%20%EC%9B%B9%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+- [스프링 배치](https://github.com/97Fekim/TIL/tree/master/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B0%B0%EC%B9%98)
 
 </div>
 </details>
@@ -47,6 +46,7 @@
 
 - [Mysql 기본 문법](https://github.com/97Fekim/TIL/blob/master/DataBase/mysql.md)
 - [Oracle 기본 문법](https://github.com/97Fekim/TIL/blob/master/DataBase/oracle.md)
+- [SQLD](https://github.com/97Fekim/TIL/blob/master/DataBase/sqld.md)
 
 </div>
 </details>
@@ -60,6 +60,15 @@
 - [브랜치](https://github.com/97Fekim/TIL/blob/master/Git/3.%20Branch.md)
 - [원격저장소(Github)](https://github.com/97Fekim/TIL/blob/master/Git/4.%20Remote%20Rapository(Github).md)
 - [깃 활용 협업 시나리오](https://github.com/97Fekim/TIL/blob/master/Git/5.%20%EA%B9%83%20%ED%98%91%EC%97%85%20%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.md)
+
+</div>
+</details>
+
+<details open>
+<summary> <strong>방법론</strong> </summary>
+<div markdown="1">
+
+- [DTO, DAO, VO](https://github.com/97Fekim/TIL/blob/master/Methology/dto_dao_vo.md)
 
 </div>
 </details>
