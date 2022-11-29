@@ -7,7 +7,7 @@
 <div markdown="1">
 
 - [자료구조](https://github.com/97Fekim/TIL/tree/master/Data%20Structure)
-- [운영체제(추후에 추가될 예정)]()
+- [운영체제](https://github.com/97Fekim/TIL/tree/master/os)
 - [네트워크(추후에 추가될 예정)]()
 - [데이터베이스(추후에 추가될 예정)]() 
 
