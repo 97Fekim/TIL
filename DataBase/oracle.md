@@ -124,5 +124,9 @@ position varchar(10) constraint professor_ck check(position in ('교수', '부�
 -- 테이블 TRUNCATE 프로시저 호출
 CALL SP_TRUNC_TABLE
 ```
+# Meterialized View
+물리적인 데이터를 가지고 있는 View 이다.
+View는 복잡한 쿼리를 쉽게 호출할 수 있다는 장점이 있지만, 단순하게 생각해 보았을때 복잡한 쿼리가 날아가기 때문에 성능은 동일하다.
+Meterialized View는 이러한 View의 성능 문제를 개선한 View이다.
 
-.
+
