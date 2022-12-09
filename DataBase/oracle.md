@@ -131,6 +131,7 @@ Meterialized View는 이러한 View의 성능 문제를 개선한 View이다.
 
 # WITH절
 with절은 이름이 부여된 서브쿼리이다.
+C언어의 <code>#define</code> 의 기능과 비슷하게 이해하면 쉽다.
 
 - 기존의 서브쿼리
 ```sql
