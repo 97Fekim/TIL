@@ -129,4 +129,37 @@ CALL SP_TRUNC_TABLE
 View는 복잡한 쿼리를 쉽게 호출할 수 있다는 장점이 있지만, 단순하게 생각해 보았을때 복잡한 쿼리가 날아가기 때문에 성능은 동일하다.
 Meterialized View는 이러한 View의 성능 문제를 개선한 View이다.
 
+# WITH절
+with절은 이름이 부여된 서브쿼리이다.
 
+- 기존의 서브쿼리
+```sql
+(
+select *
+from animal
+where animal_id = 'L';
+)
+```
+
+- with절
+```sql
+with select_lion as (
+select *
+from animal
+where animal_id = 'L';
+)
+```
+
+- 다중 with문
+```sql
+with select_lion as (
+select *
+from animal
+where animal_id = 'L';
+), 
+select_tiger as (
+select *
+from animal
+where animal_id = 'T'
+)
+```
