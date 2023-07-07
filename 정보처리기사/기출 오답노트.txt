@@ -16,13 +16,6 @@
 * SoftTech사의 구조적 요구 분석을 위한 블록 다이어그램 자동화 도구
  - SADT(Structure Analysis and Design Technique)
 
-* MAC(Mandatory) > DAC(Discretionary) > RBAC(Role Based)
-
-* 해킹기법
- - 파밍 : 홈페이지 위조
- - 피싱 : 위조된 메일 등의 발송
- - XSS : 웹페이지에 악의적인 스크립트를 실행하게 유도
-
 * 패키지소프트웨어의 일반적인 제품품질 요구사항 및 테스트 국제표준
  - SPICE = ISO/IEC 25010
 
@@ -393,6 +386,9 @@ active |           |
 
 * 공격기법
  - Ping of Death : ICMP 패킷 다량 전송
+ - ICMP Flooding : Smurf 공격으로도 불림. Ping Flooding과 SYN Flooding이 있음
+   - Ping Flooding : 막대한 양의 ICMP 에코 패킷을 보내는 방법
+   - SYN Flooding : 막대한 양의 TCP SYN 패킷을 대상 시스템에 보내는 방법
  - Session Hijacking : 유효한 세션으로 서비스에 접근하는 것
  - Piggyback Attack : 공격자가 다른 사용자의 연결에서 계정을 사용하지 않는 비활성 기간을 이용하여 시스템에 접근한다.
  - XSS(Cross Site Scripting) : 웹사이트에 악성 스크립트를 주입하는 행위
@@ -430,18 +426,6 @@ active |           |
  - 상호작용 개요 다이어그램
  - 타이밍 다이어그램
 
-* 순수관계연산자 
- - SELECT
- - PROJECT
- - JOIN
- - DIVISION
-
-* 일반집합연산자
- - 합집합
- - 교집합
- - 차집합
- - 카티션 프로덕트
-
 * 기능점수(Function Point)모형에서 비용산정에 이용되는 요소
  - 자료 입력 (입력 양식)
  - 정보 출력 (출력 보고서)
@@ -449,7 +433,88 @@ active |           |
  - 데이터 파일
  - 필요한 외부 루틴과의 인터페이스
 
+* IDS : 침입 탐지 시스템
 
+* KDD : 데이터베이스 속의 지식 발견
 
+* ZIGBEE : 저전력 라디오를 이용한 개인 통신망
 
+* 소프트웨어 자동화 도구
+ - SREM(Software Requirements Engineering Methology) 
+   : TRW사가 우주 국방 시스템 그룹에 의해 실시간 처리 소프트웨어 시스템에서 요구사항을 명확히 기술하도록 할 목적으로 개발한 것.
+ - PSL/PSA
+   : 미시간 대학에서 개발한 것으로 PSL과 PSA를 사용하는 자동화 도구
+ - HIPO
+   : 하향식 소프트웨어 개발을 위한 문서화 도구
+ - SADT(Structure Analysis and Design Technique)
+   : SoftTech사에서 개발된 것으로, 구조적 요구 분석을 위해 블록 다이어그램을 채택한 자동화 도구.
 
+* 세션 하이제킹 탐지 방법
+ - 비동기화 탐지
+ - Ack Storm 탐지
+ - 패킷의 유실 및 재전송 증가 탐지
+ - 리셋탐지
+
+* tcpdump : 컴퓨터에 부착된 네트워크를 통해 송수신되는 기타 패킷을 가로채고 표시할 수 있게 도와주는 소프트웨어
+
+* netcat : TCP또는 UDP를 사용하여 네트워크 연결을 읽고 쓰는데 사용되는 컴퓨터 네트워킹 유틸리티
+
+* SDDC(Software Defined Data Center) : 모든 자원이 가상화 되어 서비스되는 데이터 센터
+
+* LCO : 각 기능의 원시 코드 라인 수의 낙관치/비관치/기대치를 측정하여 에측치를 구하고 이를 이용하여 비용을 산정
+
+* 필요한 암호키의 개수
+ - 비밀키(대칭키) : N(N-1)/2 개
+ - 공개키(비대칭키) : 2N 개
+
+* SAN : 네트워크상에 광채널 스위치의 이점인 고속 전송과 장거리 연결 및 멀티 프로토콜 기능을 활용
+* MBR(Memory Buffer Register) : 기억장치를 출입하는 데이터가 잠시 기억되는 레지스터
+* NAC(Network Access Control) : PC의 MAC주소를 IP관리 시스템에 등록.
+* NIC : 물리계층과 데이터계층의 서비스를 제공
+
+* ISO 12207 표준의 기본 생명주기의 주요 프로세스
+ - 기본생명주기 프로세스 : 획득, 공급, 개발, 운영, 유지보수
+ - 지원생명주기 프로세스 : 품질 보증, 검증, 확인, 활동 검토, 문제 해결
+ - 조직생명주기 프로세스 : 관리, 기반 구조, 훈련, 개선
+
+* 하드웨어 관련 신기술
+ - Memristor : memoty + register. 전원 공급이 끊어져도, 다시 전원이 공급되면 이전 상태 복원
+ - MEMS : 센서, 엑추에이터 등 기계구조를 다양한 기술로 미세 가공 후 전기기계적 동작이 가능케 한 초미세장치
+ - SNMP : 간이 망 관리 프로토콜
+ - N-Screen : N개의 서로 다른 단말기에서 동일콘텐츠를 자유롭게 이용 가능한 서비스
+
+* 접근제어모델
+ - Bell-Lapadula Model : 군대의 보안 레벨처럼 정보의 기밀성에 따라 상하 관계가 구분된 정보를 보호하기 위해 사용
+ - BLP 기밀성 모델 : 정보의 불법적인 파괴나 변조보다는 불법적인 비밀 유출 방지에 중점 - 기밀성 강조
+ - Clark-Wilson 모델 : 비밀 노출 방지보다 자료의 변조 방지가 더 중요함 (금융, 회계관련 데이터 등)
+ - Chinese Wall : 충돌을 야기시키는 어떠한 정보의 흐름도 없어야 한다.
+
+* 거리벡터 라우팅 프로토콜  (RIP)
+ - Bellman-Ford 알고리즘 사용
+ - RIP프로토콜 (최대홉수15)
+ - 인접 라우터와 주기적으로 정보 교환
+
+* 링크 상태 라우팅 프로토콜
+ - 다익스트라 알고리즘 사용
+ - OSPF(Open Shortest Path First) 임
+ - 최단경로, 최소지연, 최대처리량
+
+* SPICE 모델의 수행능력 수준의 단계
+ - 0단계 : 불안정
+ - 1단계 : 수행
+ - 2단계 : 관리
+ - 3단계 : 확립
+ - 4단계 : 예측
+ - 5단계 : 최적화
+
+* 침입탐지 시스템 IDS (Intrusion Detection System)
+ - 이상탐지(Anomaly Detection) : 비정상적인 행위나 자원의 사용이 감지되면 이를 알려줌
+ - 오용탐지(Mususe Detection) : 미리 입력해둔 공격 패턴이 감지되면 이를 알려줌
+ 
+* VLAN (Virtual Local Area Network) : 물리적 배치와 상관없이 논리적으로 LAN을 구성
+
+* STP (Spanning Tree Protocol) : 2개 이상의 스위치가 여러 경로로 연결될 때, 무한 루프 현상을 막기 위해 1개의 경오로만 통신하도록 하는 프로토콜
+
+* MapReduce : 대용량 데이터를 분산처리하기 위한 목적으로 개발된 프로그래밍 모델
+
+* Cipher Container : 자바에서 암호화 복호화 기능을 제공하는 컨테이너
