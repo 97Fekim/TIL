@@ -1,0 +1,14 @@
+(X)422.
+(X)423. 
+(X)424. 
+(X)425. 
+(X)426. 
+(X)427 . select 학번, avg(학점) from 성적 where 과목 in ('컴퓨터 구조', '알고리즘') group by 학번;
+(X)432. 홀수:1 찍수:4
+431. 1-디지털트윈, 2-CPS
+428. select 학번, 학점 from 성적 where 과목 = '컴퓨터 구조' order by 학점
+429. Helrld
+430. BCDE
+433. select distinct(과목) from 성적
+434. a % 2 == 0 && a > 10
+435. 8, 9

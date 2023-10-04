@@ -1,0 +1,20 @@
+(X)382. 1-REVOKE, 2-
+(X)384.
+(X)385.
+(X)387.
+(X)389. 
+(X)390.
+(X)391.
+(X)396.
+(X)398.
+(X)399.
+(X)400. 
+381. REST
+383. RIP
+386. SEED
+388. 7 touch points
+392. SQL 인젝션
+393. SOAP
+394. 1-sutdent, 2-value, 3-set, 4-수강과목, 5-학번 = '2학년', 수강과목='국어', 6-delete from, 7-select *, 8-where
+395. IPSec
+397. SSO
