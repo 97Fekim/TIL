@@ -1,12 +1,15 @@
-(X)341. 1-GRAND, 2-?
-(X)346. 
+https://ss-o.tistory.com/90
+
 (X)348. 
 (X)349. 
 (X)350. 
-(X)351. 
 (X)353. 
 (X)359. 
 (X)360. 
+
+341. 1-GRAND, 2-?
+346. 
+351. 
 342. 1-GROUP BY, 2-HAVING
 343. 1-GUI, 2-CLI
 345. HDBMS
